@@ -27,7 +27,7 @@ class HlsQualitySelectorPlugin {
 
     // If there is quality levels plugin and the HLS tech exists
     // then continue.
-    if (this.player.qualityLevels && this.getHls()) {
+    if (this.player.qualityLevels) {
       // Create the quality button.
       this.createQualityButton();
       this.bindPlayerEvents();
